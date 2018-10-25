@@ -1,0 +1,638 @@
+A Guide to Microsoft Paint (Windows XP)
+Introduction
+Microsoft Paint allows you to produce your own pictures (or edit existing
+ones). In Windows XP, you can no longer access Paint directly from the
+Microsoft Office applications; instead, you insert the picture file or copy and
+paste the picture directly from Paint.
+Note that pictures and drawings are fundamentally different. A picture is
+composed of a fine grid of coloured dots (pixels), whereas a drawing is
+composed of lines and areas. If you paste a drawing into a painting
+program, its component units (the lines etc) are lost - they become a series
+of individual dots. To create a drawing you need to use Microsoft Draw (see
+A Guide to Microsoft Draw for details).
+
+Starting up Microsoft Paint
+To run Microsoft Paint independently:
+1. Open the Windows Start menu, select Programs then Accessories
+and finally Paint
+2. [Maximize] the window so that the Paint window fills the screen
+Your screen should now appear as below:
+
+The white area on the screen is your painting canvas, below this is a palette
+of 28 colours, while to the left is a toolbox. Many of the tools in the toolbox
+match those in Microsoft Draw but they don't all behave in exactly the same
+way.
+
+Fundamentals
+Before you start to explore the toolbox, it's important to understand several
+fundamental aspects of using a painting package. The major difference
+between this and a drawing package is that once a line or shape has been
+drawn it cannot be edited in the same way. You cannot, for example,
+lengthen a line, nor can you change its style or colour. Further, the line
+cannot be moved independently of its surroundings, neither can the order of
+objects be changed (whatever is drawn last is what appears in the picture).
+With this in mind, you have to set up line thickness and colour before you
+draw an object. Then, if you fail to draw the object precisely in the right
+place, you have to use Undo (<Ctrl z>) to erase it and then try again. When
+creating a picture you will find you have to use Undo quite frequently!
+Setting the Canvas Size
+
+The canvas consists of a fine grid of pixels. You can see individual pixels
+and can display the grid by using the magnification facility, as you will see
+later. This can help considerably if accurate drawing is required.
+To increase the size of your canvas you can simply drag out the edges to
+the required size using the mouse on the canvas handles. These are
+positioned at each corner of the canvas and half-way along each side. You
+can also set it precisely via the Image menu.
+1. Position the mouse cursor over one of the canvas handles on the right
+or bottom edge - use the bottom right corner handle to change both the
+width and the height
+Note that within the picture itself the current grid coordinates of the mouse
+cursor (which currently appears as a pencil) area displayed at the foot of
+the screen). You can use these to help you draw accurately. Outside the
+canvas area, the mouse cursor appears in its usual arrow shape. Only
+when it is placed exactly over one of the canvas handles does it become a
+two-headed arrow.
+
+2. Hold down the mouse button and drag the mouse outwards (or
+inwards) - note how the new size is displayed by the coordinates at the
+foot of the screen
+3. Release the mouse button when the canvas is the required size
+It's not that easy to reset the canvas size this way - an easier method is to
+set up the size via the menu system:
+4. Open the Image menu and select Attributes... - the following window
+appears:
+
+5. Under Units decide whether you want to define the size in Inches, Cm
+or Pixels
+6. Now set up the Width and Height - here change it to 500 by 400 pixels
+7. Press <Return> for [OK] and the canvas is resized
+Note: If you increase the size of your canvas, the additional area will
+appear in whatever background colour is set at the time. For this reason, it's
+a good idea to set this up before you mess around with the colour settings.
+Setting the Foreground/Background Colours
+
+At any one time, you have only two colours which you can use to draw an
+object. In Paint these are known as the foreground colour and background
+colour. These are the two colours shown to the left of the palette. The top
+square (currently black) denotes the foreground colour, while the partiallyhidden lower square (currently white) denotes the background colour. If you
+draw a solid shape, the surrounding line is drawn in the foreground colour,
+with the fill in the background colour.
+To draw another object in a different colour you have to change the current
+foreground and/or background colours before you start drawing. This is
+
+done simply by clicking with the left (for foreground) or right (for
+background) mouse buttons on the palette. You can also use these buttons
+when drawing to reverse the normal colours - if you draw a line using the
+right mouse button, it appears in the background colour.
+To change the default drawing colours:
+1. Position the mouse cursor over the required foreground colour in the
+palette and click on the left mouse button
+2. For the background colour, repeat step 1 but click using the right
+mouse button
+You will find that the small squares to the left of the colour palette now
+match your choices. It's important that you don't select the same colour for
+both the foreground and background. You will learn later how to change the
+colours available to you in the palette itself.
+Setting the Line Thickness
+
+To change the thickness of the line being used for drawing:
+Line
+
+1. Click on the [Line] button in the toolbox - a selection of 5 line
+thicknesses appears below the toolbox (the default is 1 pixel wide, the
+next down is 2 pixels ... up to 5 pixels at the bottom)
+2. Select the required line thickness
+Note: this is the thickness of the line that will be used when drawing shapes
+(lines, rectangles, ellipses etc). If you draw freehand using the pencil or
+brush then this setting is ignored.
+
+The Basic Tools
+The six tools in the bottom three rows of the toolbox provide you with basic
+drawing facilities. These give you lines, curves, rectangles & squares,
+polygons, ovals & circles and rounded rectangles respectively. The exercise
+which follows uses these in turn:
+1. Click on the first of the six buttons - [Line]
+2. Before you draw any object, check that the line thickness and
+foreground colour are correct
+
+3. Move the mouse cursor to where you would like to draw a line (use the
+grid coordinates for accuracy) then hold down the left mouse button
+and move the mouse around
+4. As the mouse is moved the coordinates change and an elastic line
+appears, starting at the position where you first held down the mouse
+button and ending at the current position of the cursor
+5. Position the cursor where you want the line to end then release the
+mouse button - a line appears in the current foreground colour and
+chosen thickness
+The same principle works when drawing rectangles, ellipses and rounded
+rectangles:
+6.
+7.
+8.
+9.
+
+Check that the line thickness and foreground colour are correct
+Click on the [Rectangle] button immediately below [Line]
+Repeat steps 3 to 5 - this time an elastic rectangle appears
+Next click on the [Ellipse] button (below [Rectangle]) and repeat the
+above
+10. Finally try out the [Rounded Rectangle] to the right of [Ellipse]
+Tip: If you want to draw a square or circle, hold down the <Shift> key as
+you drag out the shape.
+The next button up (on the right) is for a polygon.
+11. Set the required line thickness and foreground colour then click on the
+[Polygon] button
+12. Begin the polygon by dragging out the first side (as if you were drawing
+a line)
+13. Release the mouse button to fix the line
+14. For the second side, position the mouse cursor roughly where you
+want the next corner to appear and hold down the mouse button
+15. Move the mouse to make any fine adjustments then release the mouse
+button to fix the line
+16. Repeat steps 14 and 15 for further sides of the polygon
+Note that you can also continue dragging out the sides (at step 14) if you
+want to see the side as it's being drawn. By holding down the <Shift> key
+as you draw the lines you can restrict them to horizontal, vertical and
+diagonal directions only.
+
+17. Double click on the mouse button (at the last corner, without moving
+the mouse cursor) and a final line will be drawn back to the starting
+point
+The final tool in this group draws curves. To use this, you first define the
+start and end points of the curve and then bend the straight line to form the
+required curve. You can have a maximum of two bends in any curve.
+18. Set the required line thickness and foreground colour then click on the
+[Curve] button
+19. Position the mouse cursor where you want the curve to begin then drag
+out a straight line
+20. Release the mouse button when you reach the position for the end of
+the curve
+21. Place the mouse cursor to one side of the line then hold down the
+mouse button - the line becomes a curve
+22. Move the mouse around until the curve is as required then release the
+mouse button
+23. If required, repeat steps 21 and 22 on the other side of the line to
+create a second bend in the curve
+Note: If you create the initial straight line for the curve by clicking at the
+start and end (instead of dragging out the line) the resultant line is doubled.
+As you then apply the curve it becomes an enclosed loop (a teardrop).
+Drawing Solid Shapes
+
+All the shapes you have drawn so far have been transparent - just the
+outline appears with no fill. For all the area shapes (ie not lines or curves),
+you can also draw them as solids, with the background colour used as the
+fill. To do this you have to choose a different shape style:
+1. Set the required line thickness and foreground/background (fill)
+colours, as before
+2. Click on one of the area tool buttons - eg [Ellipse]
+A choice of three fill styles is now available; these are shown beneath the
+toolbox. The top one (the default) gives you a transparent shape - the line is
+drawn but there is no fill. The middle one draws both the line (using the
+foreground colour) and fills the shape (with the background colour). The
+bottom one draws a filled shape using just the foreground colour. You have
+already seen the default - try the other two:
+
+3. Click on the middle Fill Style button
+4. Now draw an ellipse as you did previously - you'll find it's filled with the
+background colour
+5. Repeat steps 3 and 4 using the bottom Fill Style button - again the
+shape is filled with colour but this time there is no border line
+Exactly the same choices are available for the other area shapes. You will
+see later how to colour fill an existing unfilled shape.
+Reversing the Colours
+
+If you use the right mouse button when drawing a shape (or line), the
+colours are reversed - the background colour is used for the line and the
+foreground colour for the fill.
+1. Click on the middle Fill Style button
+2. Hold down the right mouse button and drag out the ellipse as before you'll find the colours have been reversed
+3. Try using the right mouse button to draw other shapes - eg a line or
+curve
+Note that you can also invert all the colours in the picture - so that black
+becomes white, blue turns yellow and red changes to cyan.
+4. Open the Image menu and select Invert Colors
+5. Repeat step 4 to return the colours to their original state
+Text Boxes
+
+To add text to a picture, a text tool is provided. This is shown as A and is
+located immediately above the [Curve] button.
+1. Click on the [Text] button
+Note the two options which appear below the toolbox. The top (default)
+setting is for a filled text box, the lower option is for text in a transparent
+box. The foreground colour is used for the text itself; the background colour
+for the fill.
+2. Set the foreground/background colours and select a transparent text
+box, if required
+3. Point the mouse cursor to where you want the text to appear, hold
+down the mouse button and drag out a rectangular frame roughly the
+size you want for the text (then release the mouse button)
+
+If you just click with the mouse then a very small text box appears. A
+special Fonts floating toolbar is displayed:
+
+4. Select the required font and font size and set up bold/italic/underline (if
+required)
+5. Click inside the text box and type in your text - as you type, the words
+wrap within the width of the frame which grows in size downwards as
+you type
+6. Using the handles, adjust the width/height of the frame - this cannot be
+made smaller than its original dimensions
+Take great care when attempting this as if you click outside the frame, the
+lettering is fixed and you have to Undo and start again. Only while the
+handles are displayed is the frame still active. In this state you can edit the
+text, change the font or its size and reset the foreground/background
+colours if necessary. You can even switch between a filled box and a
+transparent one.
+Tip: You can move the whole frame by dragging first one side then the
+opposite side.
+Note: Text in a text box can only be in one font, in a fixed size and colour,
+and attributes such as bold/italic are applied to all of the text. Use the Fonts
+toolbar to change these settings.
+7. Click away from the text box when you have finished making all your
+adjustments
+The Pencil, Brush and Airbrush
+
+The next three tools in the toolbox provide you with a pencil, brush and
+airbrush. These allow you to draw freehand shapes or colour part of your
+picture. They all work in roughly the same way but produce lines/areas of
+varying size. Start by using the pencil:
+1. Set up the required foreground colour for your pencil (you can also
+draw in the background colour by using the right mouse button)
+2. Click on the [Pencil] button
+
+A pencil draws a line one pixel high, irrespective of the current line width
+setting.
+3. Position the mouse cursor where you would like to start your drawing
+4. Hold down the mouse button and as you move the mouse a freehand
+line is drawn
+5. Release the mouse button when you have finished drawing your line
+6. If your line is a mess, press <Ctrl z> for Undo and try again
+The brush works in much the same way except that it gives a thicker line:
+7. Set up the required colour as in step 1 then click on the [Brush] button
+A set of 12 brush styles appears below the toolbox. The top row gives you a
+circular brush, the second a square one. The next two rows give you
+diagonal lines to paint with - using these you can create effects similar to an
+italic pen nib. For each type of brush you have three widths. For the circular
+brush these are 7, 4 and 1 pixel wide (left to right); for the others they are 8,
+5 and 2 pixels.
+8. Select a brush type and width then repeat steps 3 to 6, as above
+The final tool, the airbrush, works in a slightly different way. As you move
+the mouse around a fine spray of colour is applied to the canvas. The
+intensity of the colour can be increased by moving the mouse more slowly
+across the canvas or by spraying the same area over and over again.
+9. Repeat step 7 but this time click on the [Airbrush] button
+With this tool you have 3 different styles - from an intensive spray over a
+small area to a more scattered spray over a larger one.
+10. Select the type of spray required then repeat steps 3 to 6, as above
+Note: the cursor takes on the same form as the button image. The lowest
+point of the spray coming out of the can marks the centre of the spray. If
+you click the mouse button once when using the spray then you get a circle
+of spray centred on that point. You can also click when the brush is
+selected to get small circles or squares, or when the pencil is active to
+produce a single pixel of colour. You will see later how to use these to
+produce accurate drawings.
+
+Editing a Picture
+
+You cannot edit a picture in the same way that you can a drawing.
+Remember that a picture is composed of a grid of tiny squares (pixels), not
+of solid objects. Essentially you have to edit each pixel, either one at a time
+or in groups. To help you with this, several further tools are provided.
+Colour Fill
+
+You can fill an area with colour using the [Fill with Color] toolbar button.
+This essentially replaces one area of colour with another. All areas are
+coloured - even a white background. The area which can be filled is defined
+as contiguous pixels in the same colour. If, for example, a line crosses a
+circle then each half of the circle constitutes a different area and has to be
+filled separately. Great care has to be taken when filling polygons and
+freeform shapes - if the area is not completely enclosed, the fill will leak out
+and flood the whole background of the picture.
+1. Select the required fill colour from the palette - the foreground colour is
+used by default
+2. Click on the [Fill with Color] toolbar button - second row on the right
+This looks similar to the [Airbrush] and works in a similar way in that the
+cursor now matches the icon with the active spot marked by the tip of the
+paint spilling out of the can.
+3. Position the mouse cursor so that the tip of the paint is over the area to
+be filled
+4. Click on the mouse button to fill the area with the current foreground
+colour (if you right click you can fill with the background colour)
+The Eraser
+
+To remove part of your picture an eraser is provided. Essentially this acts
+like the brush except that it always uses the background colour. Usually, a
+picture is on a white background so, before the eraser is used, the
+background colour should be set back to white. If you have a different
+background colour, choose that instead.
+1. Right click on the white colour in the palette to reset the background
+colour
+2. Click on the [Eraser/Color Eraser] toolbox button (to the left of [Fill
+with Color])
+
+You now have a selection of 4 different eraser sizes (4, 6, 8 or 10 pixels
+wide) below the toolbox. The default size is 8 pixels.
+3. Select the size of rubber required - the chosen rubber is shown as
+white
+4. Move the mouse cursor onto the canvas (it becomes a small square in
+the background colour)
+5. Position the cursor above the area to be erased then hold down the
+mouse button and move the mouse around - the pixels turn to white
+6. Release the mouse button when you have finished using the eraser
+Note that you can erase the whole picture by using Select All from the Edit
+menu (or press <Ctrl a>) then pressing <Delete>. You can restore your
+picture with Undo (press <Ctrl z>) if you want to try this out here. A further
+Undo will restore what you have erased.
+Selecting an Area
+
+If you select part of your picture, you can apply commands just to that area.
+You can also copy or move a selected area. There are two selection tools a rectangular and a freeform one.
+1. Click on the rectangular [Select] button above [Fill with Color]
+2. Move the mouse cursor onto the canvas and position it at one corner of
+the area to be selected
+3. Hold down the mouse button and drag out a rectangle over the
+required area
+4. When the rectangle is correct, release the mouse button - handles
+appear around the selection
+Warning: You can use the handles to adjust the area precisely. However, if
+you decrease the area of selection then the part cut off is repainted using
+the background colour. If you enlarge the area then there's no problem.
+Now try issuing commands to effect just the selection:
+5. Open the Image menu and choose Invert Colors - the colours in that
+area are inverted
+6. Repeat step 5 to reset them back to their original state
+7. Move the mouse cursor into the area (it becomes a four-headed cross),
+hold down the mouse button and drag the area around
+8. Repeat step 7 but this time hold down the <Ctrl> key - a duplicate area
+appears (you could also use Copy and Paste)
+
+This new area is now the current selection and any command you issue will
+be applied to it.
+9. Press the <Delete> key - the selected area is replaced by the current
+background colour
+The selection handles have now disappeared, so you can't make any
+further changes.
+Now try out the [Free-Form Selection] tool. With this you can draw a
+freeform area around an object to select it. It works like the pencil (and is as
+difficult to control - until you get used to it).
+10. Click on the [Free-Form Selection] button
+11. Position the mouse cursor where you want to begin the selection then
+hold down the mouse button and draw freehand around the area
+required
+12. Release the mouse button to end the selection - a rectangle covering
+the selected area appears but the exact area is not shown
+13. Move the mouse cursor into the rectangle and drag the selected area
+to a new position
+14. When the position is correct, click outside the rectangle to release the
+selection
+It's very difficult to select an area precisely using this tool at this level of
+magnification. To make more accurate adjustments, use should be made of
+the zoom facility (see later).
+Rotation and Stretch
+
+A selected area can also be rotated or enlarged. To demonstrate this:
+1. Click on the [Select] button and select a small area of your canvas - eg
+the text
+2. Now open the Image menu and select Flip/Rotate... - the following
+window appears
+
+3. Keep the selected option as Flip horizontal (press <Return> for [OK])
+- your selection is turned into a mirror image
+4. Now repeat steps 2 and 3 but this time choose Flip vertical - your
+selection is turned upside down and is now readable again (if you
+stand on your head!)
+You can reverse the above by repeating the two flips - or you can rotate the
+selection through 180º.
+5. Repeat steps 2 and 3 but this time choose Rotate by angle and set this
+to 180º
+You can try rotating through 90º or 270º, if you like. Take care with this as
+unless the selection is perfectly square you'll find that the part of your
+picture is coloured in the current background colour.
+Next try stretching your selection:
+6. Open the Image menu and select Stretch/Skew... - the following
+window appears:
+
+Here you can increase the horizontal or vertical dimensions by whatever
+percentage you choose, or you can skew the selection horizontally or
+vertically by a given number of degrees.
+7. Under Stretch set Horizontal to 150% - press <Return> for [OK]
+8. Reposition the selection, if necessary, then click away from it to end
+the editing
+
+Precision Drawing
+Mention has previously been made of the grid upon which a picture is
+based. As you move the mouse over the canvas, the coordinates of the
+current grid position are displayed. Similarly, when you draw an object such
+as a rectangle, you can use the grid to define the size precisely.
+If you employ the magnifier, you can zoom right in to see the single pixels
+which form the grid. At this scale you can draw an object with precision and
+can edit each pixel individually. You can also select an object and move it to
+the exact position required.
+The Magnifier
+
+One of the two remaining tools in the toolbox is a magnifier. This lets you
+zoom in to see the individual pixels.
+1. Click on the [Magnifier] - a choice of 4 magnifications appears below
+the toolbox
+2. For maximum zoom select 8x - the individual pixels can be seen
+3. Using the scroll bars, move around the picture to see how individual
+objects are drawn
+
+Now try drawing at this level of magnification:
+4. Click on the [Line] button and select the thinnest style of line (1 pixel
+wide)
+5. Draw a line, as you did earlier, and note how the pattern of pixels
+changes as you move the mouse around - release the mouse button
+when the line is roughly diagonal (45º)
+6. Repeat steps 4 and 5 but this time select the thickest line style (5 pixels
+wide)
+Now try changing the colour of the lines:
+7. Select a different foreground colour from the colour palette
+8. Click on the [Fill with Color] button, move the tip of the mouse cursor
+onto the thick line and click the mouse button - the whole line is
+recoloured
+9. Repeat step 8 on the thin line - you'll find you can only recolour one or
+two pixels at a time (because they do not form a contiguous area)
+10. Click on the [Pencil] button and try drawing freehand - you can click on
+individual pixels if you find your control still isn't very good (or right click
+to erase a mistake)
+Finally, try selecting an irregular area - eg one of your new lines:
+11. Click on the [Free-Form Select] button
+12. Position the mouse cursor as close as possible to the line, hold down
+the mouse button and draw carefully around the line to select it - the
+black line marks the selection
+Note that you don't have to completely encircle it - if you don't return to your
+starting position, the selection is completed by a straight line drawn from the
+end position back to the start.
+13. Check that the background colour matches that next to the line - reset
+it if necessary
+14. Move the mouse cursor into the selection area and drag the text to its
+new position
+The above exercise should have taught you a lot more about exactly how a
+picture is formed. It also should have shown you how you can edit your
+picture with the greatest accuracy.
+
+Displaying the Grid
+
+When you are doing accurate drawing or edits like the above, it's useful to
+be able to see the actual grid. By default this is not shown - you can just
+see groups of pixels, some of which may be a single pixel in size or width.
+To view the grid:
+1. Open the View menu and choose Zoom
+2. From the submenu which appears select Show Grid - the grid is now
+displayed
+Note that the grid can only be displayed if the magnification is set to 4x or
+higher. To hide the grid:
+3. Repeat steps 1 and 2 (or press <Ctrl G>) - this time the grid
+disappears
+4. End by returning the magnification to normal - either use Normal Size
+from the Zoom submenu or click on the [Magnifier] button and choose
+1x
+Tip: You can also use <Ctrl Page Down> and <Ctrl Page Up> to switch
+between normal magnification and large (which is defined as 4x).
+
+Changing the Colours
+You are not restricted to using the colours provided in the palette - you can
+choose from the full colour spectrum. Though the palette holds only 28
+colours at a time, you can use many more than this in your picture, if you
+want to. Paint provides you with a selection of 48 basic colours, to which
+you can add a further 16 custom colours. These in turn can be redefined,
+giving you an endless range of different shades.
+If you do need to use more colours than can be accommodated in the
+palette, then Paint provides you with a simple mechanism for selecting
+colours currently not in the palette from your canvas.
+Modifying the Colour Palette
+
+To change a palette colour:
+1. Left click on the colour in the palette which you want to change
+2. Open the Colors menu and select Edit Colors... - the Edit Colours
+window appears:
+3. Select the colour required from the 48 Basic colors then press
+<Return> for [OK]
+
+Note that this just changes the colours available on the palette - it doesn't
+affect your picture at all. To select a colour which does not appear in the 48
+basic colours:
+4. Repeat steps 1 and 2 then click on [Define Custom Colors >>]
+
+5. Click in the rainbow as close as possible to the colour required
+6. Fine tune the colour by modifying the values in the boxes below - the
+end result is shown in the Color/Solid box (if two colours are shown,
+the right-hand one is what will be shown on a screen set to 256-colour
+display)
+Here isn't really the place to discuss how colours are constituted but
+basically any colour is a combination of red, green and blue. If these values
+are all set at 0 then you get white; if they are all 255 the result is black. The
+settings to the left are for the hue, saturation and luminosity. The hue
+matches the x-axis of the rainbow (ie a hue of 0 is on the far left) while the
+saturation matches the y-axes (0 being along the top). To the right of the
+rainbow is a scale which reflects the luminosity (lightness/darkness). This
+ranges from 240 at the top to 0 at the bottom.
+7. Once you have finalised your colour, click on [Add to Custom Colors]
+8. Click on the next empty box in the Custom colors palette the repeat
+steps 5 to 7 - make sure Lum isn't set to 240 or the colour will appear
+white
+
+9. When you have finished customising your colour palette, press
+<Return> for [OK]
+Note that you don't have to place a colour in Custom colors (step 7) to use it
+- you can move it straight onto your normal palette. The advantage of
+having a custom colour palette is that you can easily pick up a colour from it
+if it's no longer present in the normal palette. The alternative to this is to use
+the [Pick Color] tool.
+Picking a Colour
+
+If you have used a colour in your picture which isn't stored on any of the
+palettes, you can set the foreground or background colour to it using the
+[Pick Color] tool. You can also use this tool to pick up any colour off the
+canvas, without selecting it from a palette.
+1. Click on the [Pick Color] tool (below the [Eraser])
+2. Position the mouse cursor above a pixel containing the colour you want
+to use
+3. Click on the mouse button to set the foreground colour (or right click to
+set the background colour) - you will find this now matches the selected
+pixel
+
+Saving your Picture
+When you have finished drawing your picture you can save it in a file. This
+can then be loaded into another application or used as wallpaper for the
+background to your Desktop. Files can be saved in various formats,
+including a bitmap (.bmp), gif or jpeg. To save your picture:
+1. Open the File menu and choose Save
+2. Supply a File name: - note that pictures are held in the My Pictures
+folder by default
+3. Set Save as type: as required (see below)
+4. Press <Return> for [Save]
+The file type you select will influence the size of the resultant file. A 24-bit
+Bitmap file will be considerably larger than a 256-Color Bitmap one but
+some colour definition may be lost. The jpeg format compresses a 24-bit file
+considerably, while a gif format compresses a 256-colour file and produces
+by far the smallest file. A Monochrome Bitmap is even smaller but colour is
+lost completely. No matter which file type you choose, you should be able to
+insert your picture into another application without a problem.
+
+Saving Part of a Picture
+
+If you want to export part of a picture to a different file, you can do so by
+selecting the area and then saving it. You can also import another file into
+your current picture.
+1. Click on the [Select] button and drag out a rectangle over the area to
+be exported
+2. Open the Edit menu and select Copy To...
+3. Fill in the File name and check that Save as type is as required then
+press <Return> for [Save]
+To import another file into your current picture:
+4. Open the Edit menu and select Paste From...
+5. Select the file (use the one you've just created) then press <Return>
+for [Open]
+By default, the inserted file will appear in the top left corner but here it is
+placed as a copy over the original area.
+6. Move the mouse cursor into the pasted area and drag it to the required
+position
+7. Click away from the selection once the area is correctly positioned
+Saving your Picture as Wallpaper
+
+Another option which is available if you have your own PC is to save your
+picture as wallpaper. The picture is then used for the Desktop background.
+Note that you can't do this on the public machines.
+1. Open the File menu and select Set as Background (Centred)
+2. Now click on the [Show Desktop] button on the Task Bar (to the right
+of Start)
+You'll find the picture appearing in the middle of the screen. If you wanted it
+to fill the whole screen you'd have to enlarge the canvas. An alternative is to
+have multiple copies of your picture across the Desktop.
+3. Return to Paint by clicking on its Task Bar button
+4. Open the File menu and select Set as Background (Tiled)
+5. Repeat step 2 - you should find multiple copies of your picture across
+the Desktop
+
+If you don't want your picture as wallpaper for the Desktop:
+6. Open the Start menu and choose Settings then Control Panel
+7. Double click on the Display icon
+8. On the Background tab in the Display Properties window, scroll up to
+the top of the list and select None
+9. Press <Return> for [OK] - the Desktop returns to normal
+10. [Close] the Control Panel window
+
+Inserting a Paintbrush Picture
+To insert a Microsoft Paint picture into an Office application (ie a Word
+document, PowerPoint presentation, Excel spreadsheet or on an Access
+form), start by loading up the required application:
+1. Open the Windows Start menu, select Programs then Microsoft
+Office and finally, the required application - eg Microsoft Word
+2. If you want to insert the picture into an existing file, Open it then move
+the insertion point (typing position) to the required place
+3. Now open the Insert menu and select Picture then From File...
+4. Select the required picture then press <Return> for [Insert]
+Note that you can also copy (or cut) a picture directly from Microsoft Paint
+into the Office application. To copy the whole picture, first press <Ctrl a> (or
+use Select All from the Edit menu) then switch into the Office application
+and use Paste. You can also use Paint's [Select] tool to copy part of a
+picture, if you don't want it all.
+5. [Close] the application (ie Word) - don't bother saving the changes to
+the file unless you want them
+6. End the session by closing down Paint - click on the Close window
+button or choose Exit from the File menu
+
+
