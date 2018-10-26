@@ -1,29 +1,29 @@
-# Welcome
+## Welcome
 
-# Description:
+## Description
 
     While exploring your grandpa's attic you find
     a dusty PC. You bring it downstairs, plug it in
-    and switch it on. After _Windows XP_ loads up 
+    and switch it on. After Windows XP loads up 
     a login prompt appears.
     The password shouldn't be that difficult to get.
     
-    [Attachment](https://google.com)
+    [Attachment](0.0.0.0:5000)
 
-# Flag:
+## Flag
 
     CTF{Welcome_to_Microsoft_Windows}
-    
-# Post Solution:
+
+## Post Solution
 
     ![Welcome](welcome.jpg)
-    
-# Deploy
+
+## Deploy
 
     docker build -t challenge_0 .
     docker run -d -p 5000:1337 challenge_0
 
-# Solution:
+## Solution
 
     1) Unzip the zip file
     
@@ -31,4 +31,4 @@
     
     3) Decode the base64 encoded string
     
-    4) Find the flag
+    4) Extract the flag
