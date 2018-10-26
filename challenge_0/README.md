@@ -14,6 +14,10 @@
 
     CTF{Welcome_to_Microsoft_Windows}
     
+# Post Solution:
+
+    ![Welcome](welcome.jpg)
+    
 # Deploy
 
     docker build -t challenge_0 .

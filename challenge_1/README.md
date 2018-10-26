@@ -25,4 +25,4 @@
     
     3) Navigate to /home/photoshop
     
-    4) Cat flag.txt and decode the flag
+    4) Cat flag.txt
