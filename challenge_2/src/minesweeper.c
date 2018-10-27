@@ -9,13 +9,18 @@ unsigned char flag[] = {0x37, 0x26, 0x3F, 0x5B, 0x25, 0x0E, 0x07, 0x17, 0x11, 0x
 unsigned char banner[] = {0x74, 0x72, 0x79, 0x20, 0x68, 0x61, 0x72, 0x64, 0x65, 0x72};
 
 void donut(int spin) {
-    while (spin == 1) {
+    if (spin == 0) {
+        return;
+    }
 
-          int k;double sin()
-         ,cos();float A=
+    printf("\nYou should've changed it :)\n");
+    sleep(2);
+
+             int k;double\
+         sin(),cos();float A=
        0,B=0,i,j,z[1760];char b[
      1760];printf("\x1b[2J");for(;;
-  ){usleep(25000);memset(b,32,1760);memset(z,0,7040)
+  ){memset(b,32,1760);memset(z,0,7040)
   ;for(j=0;6.28>j;j+=0.07)for(i=0;6.28
  >i;i+=0.02){float c=sin(i),d=cos(j),e=
  sin(A),f=sin(j),g=cos(A),h=d+2,D=1/(c*
@@ -28,12 +33,11 @@ in(B),t=c*h*g-f*        e;int x=40+30*D*
  ".,-~:;=!*#$@"[N>0?N:0];}}/*#****!!-*/
   printf("\x1b[H");for(k=0;1761>k;k++)
    putchar(k%80?b[k]:10);A+=0.04;B+=
-     0.02;}/*****####*******!!=;:~
+     0.02;usleep(25000);}/*****####*
        ~::==!!!**********!!!==::-
          .,~~;;;========;;;:~-.
              ..,--------,*/
 
-    }
 }
 
 void print_flag() {
@@ -60,16 +64,12 @@ int main() {
     printf("Welcome to Mineswee");
 
     for (int x = 0; x < 3; x++) {
-        sleep(1);
         printf(".");
-        sleep(1);
+        usleep(750000);
     }
 
     printf("\nSegmentation fault\n");
-    sleep(2);
-
-    printf("\nI hope you've changed it :)\n");
-    sleep(2);
+    usleep(750000);
 
     donut(spin);
 
