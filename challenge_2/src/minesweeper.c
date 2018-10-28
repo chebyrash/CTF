@@ -40,7 +40,8 @@ in(B),t=c*h*g-f*        e;int x=40+30*D*
 
 }
 
-void print_flag() {
+void print_flag(int spin) {
+    donut(spin);
     for (int x = 0; x < sizeof(flag); x++)
         printf("%c", flag[x] ^ banner[x % 8]);
     printf("\n");
@@ -71,9 +72,7 @@ int main() {
     printf("\nSegmentation fault\n");
     usleep(750000);
 
-    donut(spin);
-
-    print_flag();
+    print_flag(spin);
 
     return 0;
 }
