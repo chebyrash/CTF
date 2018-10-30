@@ -15,7 +15,8 @@
 
 ## Deploy
 
-    docker run -d -p 5002:1337 ch2
+    docker build -t challenge_2 .
+    docker run -d -p 5002:1337 challenge_2
 
 ## Solution
 

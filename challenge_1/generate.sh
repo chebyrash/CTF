@@ -8,4 +8,6 @@ gzip home/mspaint.1 && cp home/mspaint.1.gz /usr/share/man/man1/
 
 mandb
 
-rm -rf home/mspaint.1.gz home/paint.txt && mv home/server.sh /
+rm -rf home/mspaint.1.gz home/paint.txt
+
+cd /home
