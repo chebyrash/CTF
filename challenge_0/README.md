@@ -26,9 +26,6 @@
 ## Solution
 
     1) Unzip the zip file
-    
     2) Use exiftool to lookup the Comment tag
-    
     3) Decode the base64 encoded string
-    
     4) Extract the flag

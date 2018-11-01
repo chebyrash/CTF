@@ -1,4 +1,4 @@
-# MS-Paint
+## MS-Paint
 
 ## Description
 
@@ -19,14 +19,10 @@
 ## Deploy
 
     docker build -t challenge_1 .
-    docker run -d -p 5001:1337 challenge_1
+    docker run -d -p 5001:1337 challenge_1**
 
 ## Solution
 
-    1) Netcat to the server
-    
-    2) Use ! in man (running less for paging) to get code execution
-    
-    3) Explore ~ to find /home/photoshop
-    
-    4) Cat flag.txt
+    1) Use ! in man (running less for paging) to get code execution
+    2) Explore current dir to find photoshop/
+    3) Cat the flag.txt inside

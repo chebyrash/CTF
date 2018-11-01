@@ -1,8 +1,9 @@
-# Broken File System
+## Cluttered File System
 
 ## Description
 
-    It's not an executable, but a file 29 bytes long
+    You decided to explore the file system, but there is so much garbage
+    Let's see if you can find - not an executable, but a file 29 bytes long
 
 ## Flag
 
