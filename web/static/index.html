@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        html body {
+            height: 100%;
+            width: auto;
+        }
+
+        .collapsible {
+            background-color: #777;
+            color: white;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+        }
+
+        .active, .collapsible:hover {
+            background-color: #555;
+        }
+
+        .collapsible:after {
+            content: "+";
+            font-size: 13px;
+            color: white;
+            float: right;
+            margin-left: 5px;
+        }
+
+        .active:after {
+            content: "-";
+        }
+
+        .content {
+            padding: 0 18px;
+            background-color: white;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+        }
+    </style>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+
+<h1>CTF</h1>
+
+<h2>Challenges:</h2>
+
+<div id="container">
+    <button class="collapsible" id="ch0_button">[EASY] Challenge 0</button>
+    <div class="content" id="ch0_content">
+        <h3>Description:</h3>
+        <p>
+            I found this really old computer, but I have completely forgotten the password.
+            <br>
+            It shouldn't be that difficult to get.
+            <br>
+            Have a look at the screenshot, it seems like there's a <b>hint</b>.
+            <br>
+            <br>
+            <i>http://138.68.139.115:5000</i>
+            <br>
+        </p>
+        <h3>Solution:</h3>
+        <form onsubmit="return onFlagSubmit(event, 'ch0')">
+            <label for="flag0">
+                Flag:
+                <input type="text" id="flag0">
+            </label>
+            <input type="submit" value="Submit">
+        </form>
+        <br>
+    </div>
+
+
+    <button class="collapsible" id="ch1_button">[MEDIUM] Challenge 1</button>
+    <div class="content" id="ch1_content">
+        <h3>Description:</h3>
+        <p>
+            Paint.exe is extremely hard to use, you might want to have a look at the MANual
+            <br>
+            <i>Seems like it might be vulnerable to code execution</i>
+            <br>
+            <br>
+            <i>nc 138.68.139.115 5001</i>
+            <br>
+        </p>
+        <h3>Solution:</h3>
+        <form onsubmit="return onFlagSubmit(event, 'ch1')">
+            <label for="flag1">
+                Flag:
+                <input type="text" id="flag1">
+            </label>
+            <input type="submit" value="Submit">
+        </form>
+        <br>
+    </div>
+
+    <button class="collapsible" id="ch2_button">[HARD] Challenge 2</button>
+    <div class="content" id="ch2_content">
+        <h3>Description:</h3>
+        <p>
+            I found this icon on the computer. Can you have a look?
+            <br>
+            There should be a way to run it...
+            <br>
+            Have a look if you can extract anything.
+            <br>
+            <br>
+            <i>http://138.68.139.115:5002</i>
+            <br>
+        </p>
+        <h3>Solution:</h3>
+        <form onsubmit="return onFlagSubmit(event, 'ch2')">
+            <label for="flag2">
+                Flag:
+                <input type="text" id="flag2">
+            </label>
+            <input type="submit" value="Submit">
+        </form>
+        <br>
+    </div>
+
+    <button class="collapsible" id="ch3_button">[EASY] Challenge 3</button>
+    <div class="content" id="ch3_content">
+        <h3>Description:</h3>
+        <p>
+            I decided to explore the file system on this PC, but there is so much garbage here.
+            <br>
+            Let's see if you can find - a file, which is 29 bytes long and not an executable.
+            <br>
+            <br>
+            <i>nc 138.68.139.115 5003</i>
+            <br>
+        </p>
+        <h3>Solution:</h3>
+        <form onsubmit="return onFlagSubmit(event, 'ch3')">
+            <label for="flag3">
+                Flag:
+                <input type="text" id="flag3">
+            </label>
+            <input type="submit" value="Submit">
+        </form>
+        <br>
+    </div>
+
+    <button class="collapsible" id="ch4_button">[MEDIUM] Challenge 4</button>
+    <div class="content" id="ch4_content">
+        <h3>Description:</h3>
+        <p>
+            Exploring Windows is boring wihout some music, right?
+            <br>
+            This archaic MP3 player has a simple interface potentially riddled with bugs.
+            <br>
+            Let's see if you can manage to exploit it's internal media database.
+            <br>
+            <br>
+            <i>nc 138.68.139.115 50041</i>
+            <br>
+            <i>Source Code: http://138.68.139.115:50042</i>
+            <br>
+        </p>
+        <h3>Solution:</h3>
+        <form onsubmit="return onFlagSubmit(event, 'ch4')">
+            <label for="flag4">
+                Flag:
+                <input type="text" id="flag4">
+            </label>
+            <input type="submit" value="Submit">
+        </form>
+        <br>
+    </div>
+</div>
+
+
+</body>
+
+<script>
+    window.onload = () => {
+        const coll = document.getElementsByClassName("collapsible");
+        [...coll].forEach(c => {
+            c.addEventListener("click", function () {
+                this.classList.toggle("active");
+                const content = this.nextElementSibling;
+                content.style.maxHeight ?
+                    content.style.maxHeight = null
+                    :
+                    content.style.maxHeight = content.scrollHeight + "px";
+            });
+        });
+
+        axios
+            .get("/state")
+            .then(resp => {
+                renderButtons(resp.data);
+            });
+    };
+
+    function renderButtons(state) {
+        const container = document.getElementById("container");
+        const buttons = container.getElementsByClassName("collapsible");
+
+        for (let x = 0; x < state.length; x++) {
+            let original = "";
+            if (buttons[x].innerHTML.includes("|"))
+                original = buttons[x].innerHTML.split("|")[0];
+            else {
+                original = buttons[x].innerHTML;
+            }
+
+            buttons[x].innerHTML = original + (state[x] ? " | CORRECT ✓" : " | INCOMPLETE");
+        }
+    }
+
+    function onFlagSubmit(e, path) {
+        e.preventDefault();
+        e.stopPropagation();
+
+        axios
+            .get("/" + path + "?FLAG=" + e.target[0].value)
+            .then(resp => {
+                renderButtons(resp.data);
+            });
+
+        return false;
+    }
+</script>
+
+</html>
