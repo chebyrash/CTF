@@ -1,3 +1,3 @@
 # CTF
 
-## Tribute to Windows XP
+## Each challenge contains its own README
